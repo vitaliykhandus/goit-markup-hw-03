@@ -40,16 +40,18 @@ body {
   padding-right: 15px;
   margin: 0 auto;
 
-  outline: 2px solid red;
+ /*  outline: 2px solid red; */
   
 }
 
 /* logo */
+.main-header {
+  border-bottom: 1px solid #ECECEC;
+}
 
 .header {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ECECEC;
 }
 
 .main-nav {
@@ -164,6 +166,7 @@ body {
 }
 
 .button {
+  padding: 10px 32px;
   background-color: #2196f3;
   color: #ffffff;
   font-family: inherit;
@@ -377,6 +380,7 @@ body {
 
 .item-button {
   display: block;
+  
 }
 
 .item-button:not(:last-child) {
@@ -394,6 +398,7 @@ body {
   line-height: 1.6;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .page-nav .button-link:hover,
