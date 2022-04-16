@@ -172,6 +172,8 @@ body {
   font-size: 16px;
   line-height: 1.9;
   cursor: pointer;
+  border-radius: 4px;
+
 }
 
 /*section-facilities*/
@@ -402,6 +404,10 @@ body {
 
 /* our projects */
 
+.our-projects {
+  padding-bottom: 94px;
+}
+
 .visually-hidden {
   position: absolute;
   margin: -1px;
@@ -445,6 +451,14 @@ body {
   line-height: 1.9;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+
+.item-text {
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+  border: 1px solid #EEEEEE;
+
 }
 
 .projects {
