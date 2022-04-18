@@ -10,13 +10,6 @@
   box-sizing: border-box;
 }
 
-*,
-::before,
-*,
-::after {
-  box-sizing: inherit;
-}
-
 p,
 h1,
 h2,
@@ -409,10 +402,6 @@ body {
 
 /* our projects */
 
-.our-projects {
-  padding-bottom: 94px;
-}
-
 .visually-hidden {
   position: absolute;
   margin: -1px;
@@ -428,7 +417,6 @@ body {
 }
 
 .content-portfolio {
-  width: calc(100% / 3 -30px);
   display: flex;
   flex-wrap: wrap;
   margin: 0;
@@ -436,7 +424,6 @@ body {
 }
 
 .item-projects {
-  width: calc(100% / 3 -30px);
   display: block;
   display: flex;
   margin-right: 30px;
